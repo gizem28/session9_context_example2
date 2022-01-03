@@ -10,7 +10,8 @@ const User = ({ user }) => {
   return (
     <div>
       <h3>{login}</h3>
-      <img src={avatar_url} alt="" width={width} />
+      <img src={avatar_url} style={{width:300, height:300}} alt="" width={width} />
+      <br/><br/>
       <div>
         <label htmlFor="width">Image width(px)</label>
         <input
